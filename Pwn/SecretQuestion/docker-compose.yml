@@ -1,0 +1,8 @@
+version: '3'
+services:
+    secret-question:
+        build: .
+        ports:
+            - "4000:1337" # local:container
+        privileged: true
+

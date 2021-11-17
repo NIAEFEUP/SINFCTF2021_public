@@ -1,0 +1,8 @@
+version: '3'
+services:
+    administration:
+        build: .
+        ports:
+            - "4001:1337" # local:container
+        privileged: true
+

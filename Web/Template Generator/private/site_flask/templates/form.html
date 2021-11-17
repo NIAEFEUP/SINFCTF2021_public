@@ -1,0 +1,37 @@
+{%extends 'layouts.html'%}
+
+{%block content%}
+
+<div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+    <div class="card p-4">
+        <div class=" image d-flex flex-column justify-content-center align-items-center"> 
+        <button class="my_btn btn-secondary"> 
+            <img src="../static/college2.webp" height="100" width="100" />
+        </button> 
+
+        <form id="myform" class="row g-2" action="#" method="post">
+            <div class="input-group flex-nowrap mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                <input type="text" class="form-control" name="name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+
+            <div class="input-group flex-nowrap mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" name="username" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text">Description</span>
+                <textarea class="form-control" name="description" aria-label="With textarea"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+                        
+        </form>
+        
+        </div>
+    </div>
+</div>
+
+
+{%endblock content%}

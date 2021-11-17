@@ -1,0 +1,1 @@
+SINFCTF2021{PHP_is_w3ird}
