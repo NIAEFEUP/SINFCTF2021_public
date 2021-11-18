@@ -1,4 +1,4 @@
-# Template generator (Web)
+# Logo (Misc)
 
 ## Description (problem statement)
 
